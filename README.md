@@ -1,1 +1,12 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=3925105&assignment_repo_type=AssignmentRepo)
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main();
+{
+  const int rateA = 15;
+  const int rateB = 12;
+  const int rateC = 9;
+
+  int seatA, seatB, seatC;
+}
