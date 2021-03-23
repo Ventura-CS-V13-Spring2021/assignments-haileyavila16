@@ -1,0 +1,11 @@
+#include <iostream>
+#include <fstream>
+usingnamespace std;
+
+int main()
+{ 
+  int employee;
+  ifstream  rdfile;
+
+  rdfile.open("employee.txt")
+}
