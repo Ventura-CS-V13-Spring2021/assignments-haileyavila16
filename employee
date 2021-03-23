@@ -5,7 +5,18 @@ usingnamespace std;
 int main()
 { 
   int employee;
+  int N;
   ifstream  rdfile;
 
   rdfile.open("employee.txt")
+  rdfile >> N'
+  for(int i; i<N; i++)
+  {
+    rdfile >> employee;
+    ;cout << employee << endl;
+  }
+  cout << "ID" << "Name" << "Department" << "Salary" << endl;
+
+  rdfile.close();
+
 }
