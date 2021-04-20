@@ -16,5 +16,5 @@ int main()
      findMax = max(getRdnum);
      cout << findMax;
   }
-
+  return 0;
 }
