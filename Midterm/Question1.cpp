@@ -5,8 +5,16 @@ using namespace std;
 
 int main()
 {
-  ifstream file("students.txt");
+  ifstream file_("students.txt");
   int id;
   string name;
+  int score;
+  if(file_.is_open())
+  {
+    while(file_ >> id >> name >> score)
+    {
+      cout << id << "Student name: " << name <<
+    }
+  }
 }
 
