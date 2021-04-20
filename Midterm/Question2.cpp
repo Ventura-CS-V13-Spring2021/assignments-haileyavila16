@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-  int getRdnum, finMin, findMax;
-  
-  getRdnum = rand() * 50;
+  int getRdnum(void);
+  cout << " " << endl;
+} int isGreater(int n);
 
-}
+
