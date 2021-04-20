@@ -5,16 +5,15 @@ using namespace std;
 
 int main()
 {
-  ifstream file_("students.txt");
-  int id;
-  string name;
-  int score;
-  if(file_.is_open())
+  fstream file;
+  file.open("students.txt");
   {
-    while(file_ >> id >> name >> score)
+    while(file >> name >> score)
     {
-      cout << id << "Student name: " << name <<
+      cout << file << "Student name: " << name << "score: " << score
     }
+    average += students.txt;
+    cout << "Average:" << average << endl;
   }
 }
 
