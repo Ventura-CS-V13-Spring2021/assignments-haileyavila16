@@ -16,7 +16,11 @@ int main()
     diff[i] = sum-numbers[i];
   }
   for(int i=0;i<SIZE;i++){
-    cout << numbers[i] << setw(2);
+    cout << " " << numbers[i] << setw(2);
   }
-  
+cout << endl;
+for(int i=0;i<SIZE;i++){
+  cout << diff[i] << " ";
+}
+return 0;
 }
