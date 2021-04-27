@@ -18,6 +18,8 @@ int main ()
   makearray(num2, SIZE2);
   printarray(num2, SIZE2);
   findmatchnum(num1, SIZE1, num2, SIZE2);
+
+ return 0;
 }
 void makearray(int num[], int size)
 {
@@ -30,7 +32,9 @@ void printarray(int num[], int size)
       cout << num[i] << "\t";
   cout << endl;
 }
-findmatchnum(int num1[], int size1, int num2[], int size2
+void findmatchnum(int num1[], int size1, int num2[], int size2
 {
+  int match = 0;
+  for(int i=0;i<size1;i++)
   cout << "The number of the matched elements" << match << endl;
 }
