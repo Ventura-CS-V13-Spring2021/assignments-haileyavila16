@@ -27,12 +27,9 @@ int main()
    {
      myfile.write(currentNum);
    }
-
-
  }
-  
-  
-  
+  myfile.close();
+  return 0;
 }
 
 
