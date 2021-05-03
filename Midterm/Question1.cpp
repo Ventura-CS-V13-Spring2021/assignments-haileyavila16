@@ -23,11 +23,11 @@ int main()
       double avg=(double)(a+b)/2;
       cout << "Score 1: " << a << "Score 2: " << b << "Sum: " << (a+b) << "Avg: " << avg << endl;
       count=1;
-
-
+      if(avg>80)
+      highavg++;
     }
-  
-    
   }
+  cout << "The total number of students who has the average > 80: " << highavg << "Students" << endl;
+  return 0;
 }
 
