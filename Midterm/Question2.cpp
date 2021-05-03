@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
+#define N 10
 
 int prevNum=51;
 int getRdnum()
@@ -15,11 +16,23 @@ int isGreater(int n)
 }
 int main()
 {
+ ofstream myfile;
+ myfile.open("numbers.txt");
+ for(int i=0;i<N;i++)
+ {
+   int currentNum = getRdnum();
+   int check = isGreater(currentNum);
+   prevNum = currentNum;
+   if check==1
+   {
+     myfile.write(currentNum);
+   }
+
+
+ }
   
-  cout << " " << endl;
- int isGreater(int n);
- cout << " " << endl;
- cin >> "numbers.txt" >> endl;
+  
+  
 }
 
 
