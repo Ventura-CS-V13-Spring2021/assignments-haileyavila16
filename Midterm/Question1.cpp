@@ -7,9 +7,11 @@ int main()
   std::ifstream infile("students.txt");
   int a,b,count=1,highavg=0;
   char name[50];
+  while(true)
   {
-    while(file >> name >> score)
+    if(count==1)
     {
+      if
       cout << file << "Student name: " << name << "score: " << score
     }
     average += students.txt;
