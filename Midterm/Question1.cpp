@@ -11,9 +11,17 @@ int main()
   {
     if(count==1)
     {
-      if
-      cout << file << "Student name: " << name << "score: " << score
+      if(infile>>name)
+      cout << "Student name: " << name << endl;
+      else 
+      break;
     }
+    else 
+    {
+      infile >> a >> b;
+      double avg=(double)(a+b)/2;
+    }
+    PTHREAD_EXPLICIT_SCHED
     average += students.txt;
     cout << "Average:" << average << endl;
   }
