@@ -1,12 +1,12 @@
 #include <iostream>
 #include <fstream>
-#include <string>
 using namespace std;
 
 int main()
 {
-  fstream file;
-  file.open("students.txt");
+  std::ifstream infile("students.txt");
+  int a,b,count=1,highavg=0;
+  char name[50];
   {
     while(file >> name >> score)
     {
