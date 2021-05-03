@@ -5,9 +5,12 @@ using namespace std;
 int prevNum=51;
 int getRdnum()
 {
-  
+  return rand()%50+1;
 }
+int isGreater(int n)
+{
 
+}
 int main()
 {
   int getRdnum(void);
