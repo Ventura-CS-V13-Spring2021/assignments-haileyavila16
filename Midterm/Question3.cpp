@@ -29,5 +29,9 @@ if(num1>=num2 && num1>=num3) {
  }
  else return num3;
  }
+ int getDifference(int num1, int num2, int num3){
+   return findMax(num1, num2, num3) - findMin(num1, num2, num3);
+ }
+ 
 }
   
