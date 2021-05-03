@@ -1,20 +1,19 @@
 #include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
-int main()
+int getRdnum()
 {
- {int getRdnum=0;
-
-   getRdnum = rand()%9+1;
-   cout << getRdnum;
-
-   return 0;
-  }
-  { int findMin, findMax;
-     findMin = min(getRdnum);
-     cout << findMin;
-     findMax = max(getRdnum);
-     cout << findMax;
-  }
-  return 0;
+  return rand() % 10;
 }
+int findMin(int num1, int num2, int num3)
+{
+ 
+}
+int findMax(int num1, int num2, int num3)
+{
+
+}
+  
