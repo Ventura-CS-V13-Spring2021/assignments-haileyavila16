@@ -5,15 +5,17 @@ using namespace std;
 int prevNum=51;
 int getRdnum()
 {
-  return rand()%50+1;
+  return rand() % 50+1;
 }
 int isGreater(int n)
 {
-
+  if(n>prevNum)
+    return 1;
+  else return 0;
 }
 int main()
 {
-  int getRdnum(void);
+  
   cout << " " << endl;
  int isGreater(int n);
  cout << " " << endl;
