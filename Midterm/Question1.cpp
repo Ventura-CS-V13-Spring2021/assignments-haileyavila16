@@ -15,15 +15,19 @@ int main()
       cout << "Student name: " << name << endl;
       else 
       break;
+      count++;
     }
     else 
     {
       infile >> a >> b;
       double avg=(double)(a+b)/2;
+      cout << "Score 1: " << a << "Score 2: " << b << "Sum: " << (a+b) << "Avg: " << avg << endl;
+      count=1;
+
+
     }
-    PTHREAD_EXPLICIT_SCHED
-    average += students.txt;
-    cout << "Average:" << average << endl;
+  
+    
   }
 }
 
