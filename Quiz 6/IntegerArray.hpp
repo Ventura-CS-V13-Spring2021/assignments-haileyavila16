@@ -8,11 +8,9 @@ class IntegarArray
       int length = 0;
   public:
       int getLength(void) const;
-      int getLastelm(void) const;
+      void sortArray(int flag);
+      void fillUp(void);
+      void getPrimenumber(void) const;
       void printAll(void) const;
-      void fillUp(void) const;
-      void sortAsc(void);
-      void removeLastelm(void);
-      void appendElement(int v);
 };
 #endif 
