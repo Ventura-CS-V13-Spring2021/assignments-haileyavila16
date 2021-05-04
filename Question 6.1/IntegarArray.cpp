@@ -11,7 +11,7 @@ int IntegerArray::getLength(void) const
 }
 int IntegerArray::getLastelm(void) const
 {
-
+   std::array::back();
     // return the value of the last element;
 }
 void IntegerArray::printAll(void) const
@@ -45,3 +45,5 @@ void IntegerArray::appendElement(int v)
     // Append the value v to the array
  length += 1;
 }
+
+//file number 2 for Assignment 6.1
