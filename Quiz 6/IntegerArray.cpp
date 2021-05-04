@@ -29,7 +29,7 @@ void sortArray(int array[], int length)
 }
 void fillUp(void)
 {
-
+  return rand() % 100;
 }
 void getPrimenumber(void) const
 {
