@@ -33,11 +33,13 @@ void fillUp(void)
 }
 void getPrimenumber(void) const
 {
-
+ int N;
+ if (N/2 ==0)
+ cout << "Number is nit prime" << endl;
 }
 void printAll(void) const
 {
   for (int i = 0; i < length; i++)
-        cout << numbers[i] << "\t";
+        cout << N[i] << "\t";
     cout << endl;
 }
