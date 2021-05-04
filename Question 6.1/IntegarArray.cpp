@@ -16,6 +16,9 @@ int IntegerArray::getLastelm(void) const
 }
 void IntegerArray::printAll(void) const
 { 
+  for (int i = 0; i < length; i++)
+        cout << numbers[i] << "\t";
+    cout << endl;
     // Print all elements
 }
 void IntegerArray::fillUp(void)
