@@ -15,6 +15,4 @@ class IntegarArray
       void removeLastelm(void);
       void appendElement(int v);
 };
-#endif 
-
-//file number 1 for assignment 6.1
+#endif
