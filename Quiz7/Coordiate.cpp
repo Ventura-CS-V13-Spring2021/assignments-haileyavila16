@@ -1,4 +1,4 @@
-#include "coordinate.hpp"
-#include <bits/stdc++.h>
+#include "Coordinate.hpp"
+#include <iostream>
 using namespace std;
 

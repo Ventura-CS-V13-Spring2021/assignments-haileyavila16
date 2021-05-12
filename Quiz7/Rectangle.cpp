@@ -21,11 +21,21 @@ Coordinate Rectangle::getLB() const{
 Coordinate Rectangle::getRT() const{
   return Rectangle::rt;
 }
-//Gets the top right coordinate
-Coordinate Rectangle::getRT() const{
-  return Rectangle::rt;
+//Gets the area
+Coordinate Rectangle::getArea() 
+{
+  return Rectangle::area;
 }
-//Gets the top right coordinate
-Coordinate Rectangle::getRT() const{
-  return Rectangle::rt;
+//Gets the center
+Coordinate Rectangle::getCenter() 
+{
+  return Rectangle::center;
+}
+void Rectangle::setLBRT(Coordinate lbval, Coordinate rtval){
+
+
+
+  
+  Rectangle::area = (rtval.getX() - lbval.getX()) * (rtval.getY() - lbval.getY());
+  Rectangle::center = Coordinate((lbval.getX()) + (rtval.getX() - lbval.getX())) / 2, (lbval.gety() + (rtval.getY() - lbval.get()) /2);
 }
