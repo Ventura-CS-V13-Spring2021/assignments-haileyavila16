@@ -28,7 +28,7 @@ Coordinate Rectangle::getRT() const
 }
 
 //Gets the area
-Coordinate Rectangle::getArea() 
+double Rectangle::getArea() 
 {
   return Rectangle::area;
 }
