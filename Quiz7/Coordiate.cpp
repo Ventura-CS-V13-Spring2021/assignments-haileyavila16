@@ -15,6 +15,11 @@ int Coordinate::getX() const{
   return x;
 }
 //Gets the y coordinate
-int Coordinate::getX() const{
-  return x;
+int Coordinate::getY() const{
+  return y;
+}
+void Coordinate::setXY(double xval, double yval)
+{
+  
 
+}
