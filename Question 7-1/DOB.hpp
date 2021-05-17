@@ -13,7 +13,7 @@ public:
    int getMonth() const;
    int getDay() const;
    int getYear() const;
-   void printDate() const; // Print all member variable to display the date of birth.
+   void printDate() const; 
    void setDOB(int m, int d, int y);
    void setMonth(int m);
    void setDay(int d);
