@@ -1,6 +1,6 @@
 #ifndef INTEGERARRAY_H
 #define INTEGERARRAY_H
-class IntegarArray 
+class IntegerArray 
 {
   private:
       static const int N = 10;
