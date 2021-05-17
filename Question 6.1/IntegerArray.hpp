@@ -1,5 +1,5 @@
-#ifndef INTEGARARRAY_H
-#define INTEGARARRAY_H
+#ifndef INTEGERARRAY_H
+#define INTEGERARRAY_H
 class IntegarArray 
 {
   private:
