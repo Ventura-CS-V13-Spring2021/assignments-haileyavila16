@@ -41,10 +41,8 @@ void findminmax(int n[], int N){
       max=n[i];
     }
   }
-  cout << "\n Minimum Value is " << min;
-  cout << "\n Maximum Values is " << max;
+  cout << "\n Minimum Value is: " << min;
+  cout << "\n Maximum Values is: " << max;
 }
 
- 
- 
 
