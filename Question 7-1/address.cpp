@@ -1,41 +1,51 @@
 #include "address.hpp"
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-address::address(){
+Address::Address()
+{
   street = " ";
   state = " ";
   zip = 0;
-}address::address(string str, string st, int z){
+}
+Address::Address(string str, string st, int z)
+{
   street = str;
   state = st;
   zip = z;
 }
-string address::getStreet() const{
+string Address::getStreet() const
+{
   return street;
 }
-string address::getState() const{
+string Address::getState() const
+{
   return state;
 }
-string address::getZip() const{
+int Address::getZip() const
+{
   return zip;
 }
-void address::setStreet(string str){
-  street = str;
+void Address::printAddress() const
+{
+  cout << "Street" << street << ",State" << state << ",Zip Code" << zip;
 }
-void address::setState(string st){
+void Address::setStreet(string addr)
+{
+  street = addr;
+}
+void Address::setState(string st)
+{
   state = st;
 }
-void address::setZip(int z){
+void Address::setZip(int z)
+{
   zip = z;
 }
-void address::setAddress(string str, string st, int z){
-  street = str;
+void Address::setAddress(string addr, string st, int z)
+{
+  street = addr;
   state = st;
   zip = z;
 }
-void DOB::printDate() const{
-  cout << "Street: " << street << "\n";
-  cout << "State: " << state << "\n";
-  cout << "Zip Code: " << zip << "\n";
-}
+
