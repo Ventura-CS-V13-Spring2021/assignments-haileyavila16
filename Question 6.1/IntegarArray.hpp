@@ -7,12 +7,12 @@ class IntegarArray
       int numbers[N];
       int length = 0;
   public:
-      int getLength(void) const;
-      int getLastelm(void) const;
-      void printAll(void) const;
-      void fillUp(void) const;
-      void sortAsc(void);
-      void removeLastelm(void);
+      int getLength();
+      int getLastelm();
+      void printAll();
+      void fillUp();
+      void sortAsc();
+      void removeLastelm();
       void appendElement(int v);
 };
 #endif

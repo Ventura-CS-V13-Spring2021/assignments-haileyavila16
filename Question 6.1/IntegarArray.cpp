@@ -1,4 +1,4 @@
-//IntegarArray.hpp
+
 #include "IntegarArray.hpp"
 #include <iostream>
 using namespace std;

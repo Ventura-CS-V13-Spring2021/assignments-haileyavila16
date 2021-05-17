@@ -22,3 +22,6 @@ public:
    void setZip(int z);
    void setAddress(string addr, string st, int z);
 };
+
+// Added by KYU
+#endif
