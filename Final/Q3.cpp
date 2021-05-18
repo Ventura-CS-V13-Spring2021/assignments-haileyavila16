@@ -57,7 +57,20 @@ class Student
     res.name = rhs.name;
     res.num_classes = rhs.num_classes;
 
-
+    for(int i=0;i<res.num_classes;i++)
+    {
+      res.class_list[i] = rhs.num_classes;
+    }
+    return res;
+  }
+  ~Student()
+  {
+    delete []class_list;
   }
 };
+int main()
+{
+  
+}
+
 
