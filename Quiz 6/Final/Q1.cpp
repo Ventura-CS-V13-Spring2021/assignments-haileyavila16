@@ -14,5 +14,9 @@ int getNumDiv(int arr[], int n, int len)
 }
 int main()
 {
+  int arr[] = {1,2,4,6,10,24};
+  int len = sizeof(arr)/sizeoff(arr[0]);
+
+  cout << "Array: ";
   
 }
