@@ -1,8 +1,8 @@
 #include <iostream>
-#include "integararray.h"
+#include "IntegerArray.hpp"
 using namespace std;
 
-int IntegarArray::getLength(void) const
+int IntegerArray::getLength()
 {
   return length;
 }
@@ -27,19 +27,22 @@ void sortArray(int array[], int length)
   }
   return;
 }
-void fillUp(void)
+void fillUp()
 {
-  return rand() % 100;
+  length = N;
+  for(int i=0;i<N;i++){
+    numbers[i] = (rand() % 100) +1;
+  }
 }
-void getPrimenumber(void) const
+void getPrimenumber()
 {
  int N;
  if (N/2 ==0)
  cout << "Number is nit prime" << endl;
 }
-void printAll(void) const
+void printAll()
 {
-  for (int i = 0; i < length; i++)
+  for (int i = 0; i < getLength; i++)
         cout << N[i] << "\t";
     cout << endl;
 }

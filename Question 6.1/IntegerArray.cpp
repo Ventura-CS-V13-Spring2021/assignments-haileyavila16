@@ -23,12 +23,7 @@ void IntegerArray::printAll(){
     cout << endl;
   }
 }
-void IntegerArray::fillUp(){
-  length = N;
-  for(int i=0;i<N;i++){
-    numbers[i] = (rand() % 100) +1;
-  }
-}
+
 void IntegerArray::sortAsc(){
   if (length==0){
     cout << "No element in the array" << endl;

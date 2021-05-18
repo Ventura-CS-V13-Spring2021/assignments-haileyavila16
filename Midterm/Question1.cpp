@@ -12,9 +12,9 @@ int main()
     if(count==1)
     {
       if(infile>>name)
-      cout << "Student name: " << name << endl;
+        cout << "Student name: " << name << endl;
       else 
-      break;
+        break;
       count++;
     }
     else 

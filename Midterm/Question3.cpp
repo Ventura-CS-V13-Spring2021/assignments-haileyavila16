@@ -54,7 +54,6 @@ int findMax(int num1, int num2, int num3)
      cout <<"Difference between min and max: " << diff << endl;
      fileWrite(diff);
    }
-   while(diff>=3);
    return 0;
  }
 
