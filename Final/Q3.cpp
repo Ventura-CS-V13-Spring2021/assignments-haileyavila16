@@ -38,7 +38,13 @@ class Student
   }
   void show()
   {
-    
+    cout << "Name: " << name << endl;
+    cout << "Courses: \n";
+
+    for(int i=0;i<num_classes;i++)
+    {
+      cout << class_list[i] << 
+    }
   }
 };
 
