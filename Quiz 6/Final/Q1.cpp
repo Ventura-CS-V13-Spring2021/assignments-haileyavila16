@@ -38,5 +38,5 @@ int main()
       index=i;
     }
   }
-  cout << "Element with max factors: " << arr[index] << "Number of max factors: " << max << endl; 
+  cout << "\nElement with max factors: " << arr[index] << "\nMax factors: " << max << endl; 
 }
