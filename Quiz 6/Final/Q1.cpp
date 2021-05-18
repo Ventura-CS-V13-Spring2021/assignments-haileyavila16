@@ -7,6 +7,12 @@ int getNumDiv(int arr[], int n, int len)
 
   for(int i=0;i<len;i++)
   {
-    
+    if(n%arr[i]==0)
+      cnt++;
   }
+  return cnt-1;
+}
+int main()
+{
+  
 }
