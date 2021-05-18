@@ -25,7 +25,14 @@ int main()
   {
     if(arr[i]==arr[i+1])
     {
-      cout++;
+      count++;
+    }
+    else
+    {
+      cout << arr[i] << "        " << count << endl;
+      count=1;
     }
   }
+  cout << arr[n-1] << "         " << count << endl;
+  return 0;
 }
