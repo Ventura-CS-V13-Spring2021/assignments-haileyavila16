@@ -23,8 +23,20 @@ int main()
 
   int max=0, index, num;
 
-  for(i=0;i<len;i++)
+  for(int i=0;i<len;i++)
   {
     num = getNumDiv(arr, arr[i], len);
+
+    if(i==0)
+    {
+      max=num;
+      index=i;
+    }
+    else if(max<num)
+    {
+      max=num;
+      index=i;
+    }
   }
+  cout << "Element with max factors: " << arr[index] << "Number of max factors: " << max << endl; 
 }
