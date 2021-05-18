@@ -73,8 +73,12 @@ int main()
   Student s1("Student1", 3);
   s1.show();
 
+  cout << "\n----------Using Copy Constructor----------";
+
   Student s2(s1);
   s2.show();
+
+  cout << "\n----------Using overload operator----------";
 
   Student s3=s1;
   s3.show();
