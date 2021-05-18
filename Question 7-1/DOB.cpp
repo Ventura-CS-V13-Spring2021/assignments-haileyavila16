@@ -8,11 +8,15 @@ DOB::DOB()
   day = 0;
   year = 0;
 }         
-DOB::(int m, int d, int y)
+DOB::DOB(int m, int d, int y)
 {
   month = m;
   day = d;
   year = y;
+}
+int DOB::getMonth() const
+{
+  return month;
 }
 int DOB::getDay() const
 {
@@ -22,17 +26,9 @@ int DOB::getYear() const
 {
   return year;
 }
-void DOB::setMonth(int m)
+void DOB::printDate() const
 {
-  month = m;
-}
-void DOB::setDay(int d)
-{
-  day = d;
-}
-void DOB::setYear(int y)
-{
-  year = y;
+  cout << day << "/" << month << "/" << year;
 }
 void DOB::setDOB(int m, int d, int y)
 {
@@ -40,7 +36,15 @@ void DOB::setDOB(int m, int d, int y)
   day = d;
   year = y;
 }
-void DOB::printDate() const
+void DOB::setDay(int d)
 {
-  cout << m << "/" << d << "/" << y << "\n";
+  day = d;
+}
+void DOB::setMonth(int m)
+{
+  month = m;
+}
+void DOB::setYear(int y)
+{
+  year = y;
 }
