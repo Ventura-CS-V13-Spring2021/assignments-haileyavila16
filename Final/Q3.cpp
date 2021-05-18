@@ -25,6 +25,20 @@ class Student
       cin >> class_list[i];
     }
   }
-  
+  Student(Student& rhs)
+  {
+    name = rhs.name;
+    num_classes = rhs.num_classes;
+    class_list = new string[num_classes];
+
+    for(int i=0;i<num_classes;i++)
+    {
+      class_list[i] = rhs.
+    }
+  }
+  void show()
+  {
+    
+  }
 };
 
