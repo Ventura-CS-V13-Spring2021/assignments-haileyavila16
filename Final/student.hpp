@@ -11,6 +11,14 @@ private:
 
 public:
  Student():name(), num_classes(0), class_list(NULL){};
- Student(string n,)
-
-}
+ Student(string n,int num);
+ Student(Student &rhs);
+ ~Student();
+ Student &operator=(Student &rhs);
+ void inputClass(string n, int num);
+ void resetClass();
+ void printAll() const;
+ string getName() const;
+ int getNumclasses() const;
+};
+#endif
