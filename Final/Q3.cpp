@@ -70,7 +70,14 @@ class Student
 };
 int main()
 {
-  
+  Student s1("Student1", 3);
+  s1.show();
+
+  Student s2(s1);
+  s2.show();
+
+  Student s3=s1;
+  s3.show();
 }
 
 
