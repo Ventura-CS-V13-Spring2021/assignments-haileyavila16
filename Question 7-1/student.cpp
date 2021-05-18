@@ -1,48 +1,58 @@
+#include <iostream>
 #include "student.hpp"
-#include <bits/stdc++.h>
 using namespace std;
 
-Student::Student(){
+Student::Student()
+{
   sname = " ";
   id = 0;
-  dob.setDOB(0, 0, 0);
-  address.setAddress(" "," ", 0);
 }
-Student::Student(string stname,int idnum, DOB date, Address addr){
+Student::Student(string stname,int idnum, DOB date, Address addr)
+{
   sname = stname;
   id = idnum;
-  dob.setDOB(date.getMonth(), date.getDay(), date.getYear());
-  address.setAddress(addr.getStreet(), addr.getState(), addr.getZip());
+  dob = date;
+  address = addr;
 }
-int Student::getID() const{
+int Student::getID() const
+{
   return id;
 }
-string Student::getSname() const{
+string Student::getSname() const
+{
   return sname;
 }
-DOB Student::getDOB() const{
+DOB Student::getDOB() const
+{
+  return dob;
+}
+Address Student::getAddress() const
+{
   return address;
 }
-Address Student::getAddress() const{
-  return address;
+void Student::setSname(string name)
+{
+  sname = name;
 }
-void Student::setID(int num){
-  id = idnum;
+void Student::setAddress(Address addr)
+{
+  address = addr;
 }
-void Student::setSname(string name){
-  sname = stname;
+void Student::setDOB(DOB dob)
+{
+  dob = dob;
 }
-void Student::setDOB(DOB date){
-  dob.setDOB(date.getMonth(), date.getDay(), date.getYear());
+void Student::setID(int num)
+{
+  id = id;
 }
-void Student::setAddress(Address addr){
-  address.setAddress(addr.getStreet(), addr.getState(), addr.getZip());
-}
-void Student::printstudent(){
-  cout << "Student Name: " << sname << "\n";
-  cout << "Student ID: " << id << "\n";
-  cout << "DOB: ";
-  dob.printDate();
-  cout << "Address: ";
+void Student::printStudent()
+{
+  cout << "Id: " << id;
+  cout << "\tName: " << sname;
+  cout << "\tAddress: ";
   address.printAddress();
+  cout << "\tDOB: ";
+  dob.printDate();
+  cout << "\n\n";
 }

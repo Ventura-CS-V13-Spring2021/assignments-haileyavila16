@@ -6,7 +6,7 @@ private:
    int month;
    int day;
    int year;
-
+   
 public:
    DOB();
    DOB(int m, int d, int y);

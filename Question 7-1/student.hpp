@@ -26,6 +26,5 @@ public:
    void setAddress(Address addr);
    void printStudent();
 };
-
 #endif
 
